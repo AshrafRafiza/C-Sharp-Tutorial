@@ -10,13 +10,7 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            string pharse = "Giraffe Academy";
-            char grade = 'C';
-            int age = 30;
-            //float, double, decimal (less accurate to more accurate)
-            double gpa = 3.2;
-            bool isMale = false;
-
+            Console.WriteLine("Giraffe\nAcademy");
 
             Console.ReadLine();
         }
