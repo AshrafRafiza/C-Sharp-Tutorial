@@ -10,17 +10,13 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            string characterName = "John";
-            int characterAge;
-            characterAge = 35;
+            string pharse = "Giraffe Academy";
+            char grade = 'C';
+            int age = 30;
+            //float, double, decimal (less accurate to more accurate)
+            double gpa = 3.2;
+            bool isMale = false;
 
-            Console.WriteLine("There once was a man named " + characterName);
-            Console.WriteLine("He was "+ characterAge +" years old");
-
-            characterName = "Mike";
-
-            Console.WriteLine("He really liked the name " + characterName);
-            Console.WriteLine("But didn't like being " + characterAge);
 
             Console.ReadLine();
         }
